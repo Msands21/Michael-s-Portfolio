@@ -22,9 +22,21 @@ header {
 
 ul {
     list-style-type: none;
-    text-align: end;
+    padding: 0 20px 0 0;
 }
 
 li {
-    display: inline-block
+    display: inline;
+    padding: 10px;
 }
+
+a {
+    color: #84c7c6;
+}
+
+.background-image {
+    height: 338px;
+    width: 1888px;
+    margin: 0;
+}
+
