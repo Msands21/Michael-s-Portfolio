@@ -48,5 +48,7 @@ a {
     color: rgb(60, 76, 92);
     font-size: larger;
     font-weight: bolder;
+    border: solid #84c7c6;
+    background-color: #84c7c6;
 }
 
