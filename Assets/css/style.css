@@ -14,15 +14,18 @@ header {
 }
 
 /* Michael Sands heading formatting  */
-.MS {
+.ms {
     display: inline;
     position: relative;
-    margin: 8px 0px;
     padding: 0px 6px 0px 35px;
     background-color: #84c7c6;
     color: rgb(60, 76, 92);
 }
 
+nav {
+    display: flex;
+    align-items: center;
+}
 ul {
     list-style-type: none;
     padding: 0 20px 0 0;
@@ -52,9 +55,10 @@ figure.about-me {
 }
 
 .dream-big {
-    position: absolute;
-    bottom: 770px;
-    right: 52px;
+    margin-top: 100px;
+    margin-right: 10%;
+    float: right;
+    display: inline;
     color: rgb(60, 76, 92);
     font-size: larger;
     font-weight: bolder;
@@ -79,7 +83,7 @@ img {
 .ph4 {
     height: 150px;
     width: 250px;
-    padding: 50px;
+    padding: 5px;
 }
 
 h4 {
@@ -87,21 +91,39 @@ h4 {
 }
 
 h1 {
+    flex: 0 0 20%;
     color: rgb(60, 76, 92);
     border-right: 3px solid rgb(60, 76, 92);
-    display: inline-block;
     padding: 0 10px 0 0;
 }
 
 .about-div {
-    display: flex;
-    justify-content: baseline;
+   flex: 0 0 70%;
     align-items: center;
     padding: 0 0 0 100px;
 }
 
 #about-me {
+    margin: 25px 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+main {
+    margin-top: 20px;
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+body { 
+    padding: 0;
+}
+
+.about-me {
+    text-align: right;
 }
