@@ -1,7 +1,9 @@
+/* Universal styling */
 * {
     font-family: Helvetica;
 }
 
+/* Formatting for header  */
 header {
     display: flex;
     position: relative;
@@ -11,6 +13,7 @@ header {
     background-color: rgb(60, 76, 92);
 }
 
+/* Michael Sands heading formatting  */
 .MS {
     display: inline;
     position: relative;
@@ -88,4 +91,8 @@ h1 {
     border-right: 3px solid rgb(60, 76, 92);
     display: inline-block;
     padding: 0 10px 0 0;
+}
+
+.about-div {
+    display: flex;
 }
