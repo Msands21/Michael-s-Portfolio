@@ -16,4 +16,4 @@ Live Link: [LiveLink] https://msands21.github.io/Michael-s-Portfolio/
 mikesands94@gmail.com
 
 #### Project Example
-![Preview](./assets/css/images/portfolio-screenshot.jpg)
+![Preview](./Assets/css/images/portfolio-screenshot.jpg)
