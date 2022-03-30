@@ -9,91 +9,112 @@
     <title>Mike's Portfolio</title>
 </head>
 
+
 <body>
-   <!-- Header: nav bar name and bio -->
-   <header>
-    <h1 class="ms">Michael Sands</h1>   
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a> </li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li> <a href="tbd">Resume</a></li>
-            </ul>
-       </nav>
-   </header>
-
-   <figure class="background-image-head">
-    <div class="dream-big">Dream BIG!</div>
-    </figure>
-
+    <div class="contatiner">
+  
+         <header>
+             <h1 class="ms">Michael Sands</h1>   
+                 <nav>
+                     <ul>
+                         <li><a href="#about-me">About Me</a> </li>
+                         <li><a href="#projects">Projects</a></li>
+                          <li><a href="#contact-me">Contact Me</a></li>
+                          <li> <a href="./assets/css/images/fake-resume.pdf">Resume</a></li>
+                      </ul>
+                 </nav>
+         </header>
+    
+         <figure class="background-image-head">
+             <div class="dream-big">Dream BIG!</div>
+         </figure>
+    
     <!-- Main: Projects  -->
-    <main>
+         <main>
 
+             <section id="about-me">
+                <h1 class="about-me">About Me</h1>
+                 <div class="about-div">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo accusamus praesentium ab animi incidunt odit reprehenderit, expedita, explicabo eius tenetur quae consequuntur sint nam aspernatur rerum delectus nulla modi ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nam aperiam deleniti! Molestias odio, quaerat, facere reprehenderit culpa at voluptates ratione sit quam, earum assumenda commodi totam labore quis saepe.</p>
+                </div>
+             </section>
 
-        <section id="about-me">
-            <h1 class="about-me">About Me</h1>
-            <div class="about-div">
-                <figure class="about-me"></figure>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo accusamus praesentium ab animi incidunt odit reprehenderit, expedita, explicabo eius tenetur quae consequuntur sint nam aspernatur rerum delectus nulla modi ipsam.</p>
-            </div>
-
-        </section>
-
-        <article id="projects">
-            <h1>Projects</h1>
-            <!-- List 6 projects or placeholder images -->
-            <div class="project-images">
-                <figure>
-                    <div class="code-refactor">
-                        <a href="https://msands21.github.io/code-refactor/">Code-Refactor</a>
-                        <img src="./assets/images/code-refactor.jpg" alt="Code-refactor project"> 
-                    </div>
-                    <div class="ph1">
-                        <img src="./assets/images/coming-soon1.png" alt="Coming Soon">
-                    </div>
-                    <div class="ph3">
-                        <img src="./assets/images/coming-soon3.jpeg" alt="Coming Soon">
-                    </div>
-                    <div class="ph3">
-                        <img src="./assets/images/coming-soon3.jpeg" alt="Coming Soon">
-                    </div>
-                    <div class="ph4">
-                        <img src="./assets/images/coming-soon4.jpeg" alt="Coming Soon">
-                    </div>
-                </figure>
-            </div>
-           
-        </article>
+             <article id="projects" class="flex-projects">
+                <div class="projects-header">
+                    <h1>Projects</h1>
+                </div>
+            <!-- List 5 projects or placeholder images -->
+                <div class="flex-projects">
+                    <a href="https://msands21.github.io/code-refactor/" id="image1" class="imageLarge">
+                        <figure class="imageTitle">
+                            <div>
+                                <h3>Code Refactor</h3>
+                                <p>First Project</p>
+                            </div>
+                        </figure>
+                    </a> 
+                    <a href="#" id="image2" class="imageSmall">
+                        <figure class="imageTitle">
+                            <div>
+                                <h3>Coming Soon</h3>
+                                <p>Get Ready!</p>
+                            </div>
+                        </figure>
+                    </a>
+                    <a href="#" id="image3" class="imageSmall">
+                        <figure class="imageTitle">
+                            <div>
+                                <h3>Coming Soon</h3>
+                                <p>Woo Hoo!</p>
+                            </div>
+                        </figure>
+                    </a>
+                    <a href="#" id="image4" class="imageSmall">
+                        <figure class="imageTitle">
+                            <div>
+                                <h3>Coming Soon</h3>
+                                <p>To a machine near you</p>
+                            </div>
+                        </figure>
+                    </a>
+                    <a href="#" id="image5" class="imageSmall">
+                        <figure class="imageTitle">
+                            <div>
+                                <h3>Coming Soon</h3>
+                                <p>Get Excited!</p>
+                            </div>
+                        </figure>
+                    </a>
+            </article>
 
         <section id="contact-me">
             <h1 class="contact-me">Contact Me</h1>
             <div class="contact-div">
                 <ul>
-                    <li>
+                    <li class="email">
                         <a href="mikesands94@gmail.com">mikesands04@gmail.com</a>
                     </li>
-                    <li>
-                        <a href="www.linkedin.com/in/mikesands94">Linkdin</a>
+                    <li class="linkedin">
+                        <a href="https://www.linkedin.com/in/michael-sands-464786198/">Linkdin</a>
                     </li>
-                    <li>
+                    <li class="github">
                         <a href="https://github.com/Msands21">GitHub</a>
                     </li>
-                    <li>
-                        Resume
+                    <li class="resume">
+                        <a href="./assets/css/images/fake-resume.pdf">Resume</a>
                     </li>
                 </ul>  
             </div>
             
         </section>
         
-    </main>
+         </main>
     <!-- Footer  -->
-    <Footer>
-        <section>
-            <h4>Thank you for visiting! </h4>
-        </section> 
-    </Footer>
-
+        <Footer>
+            <section>
+                 <h4>Thank you for visiting! </h4>
+             </section> 
+         </Footer>
+    </div>
 </body>
 </html>
